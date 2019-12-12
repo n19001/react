@@ -1,0 +1,11 @@
+<!DOCTYPE html><meta charset="utf-8">
+  <script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+  <div id="root"></div>
+  <script type="text/babel">
+    const item = "SDカード"
+    const value = 1200
+    const msg = <h1>{item} - {value}円</h1>
+    const elm = document.getElementById("root")
+    ReactDOM.render(msg, elm)
+  </script>
